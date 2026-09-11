@@ -1,5 +1,11 @@
 # BOOKFLOW'u açma
 
+## GitHub Pages ile yayınlama
+
+Bu repo GitHub Pages için ayarlanmıştır. Dosyaları `main` dalına gönderince `.github/workflows/deploy-pages.yml` otomatik olarak üretim paketi (`dist`) oluşturur ve yayınlar.
+
+GitHub deposunda **Settings → Pages → Build and deployment → Source** alanından **GitHub Actions** seçili olmalı. Yayın adresi: `https://enestekce.github.io/kitapokuyucu/`.
+
 `index.html` dosyasına çift tıklama. Bu dosya React/TypeScript kaynak kodunu içerir ve tarayıcı bunu tek başına çalıştıramaz.
 
 1. Bilgisayarında Node.js LTS kurulu olmalı.
