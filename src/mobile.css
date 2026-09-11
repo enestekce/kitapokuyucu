@@ -1,0 +1,17 @@
+@media (max-width:720px) {
+  .reader { touch-action:none; }
+  .reader-top { height:54px; }
+  .reader-actions .jump { display:none; }
+  .reader-top>div button:nth-child(2) { display:inline-block; }
+  .annotation-bar { height:auto; min-height:40px; justify-content:flex-start; overflow-x:auto; padding:4px 8px; white-space:nowrap; }
+  .annotation-bar button { flex:0 0 auto; }
+  .tool-size { flex:0 0 auto; }
+  .book-spread { display:flex; }
+  .book-stage { padding:2px; }
+  .zoom-scroll { inset:0 20px; padding:4px; place-items:start center; }
+  .book-single { width:auto; height:auto; }
+  .book-single .pdf-page { max-width:none; max-height:none; }
+  .page-hit { width:13%; z-index:12; font-size:30px; }
+  .reader-bottom { height:48px; }
+  .reader-bottom button { min-width:80px; }
+}
